@@ -34,5 +34,27 @@
 	{
 		background-color: #24465454 !important;
 	}
+	.trending-img{
+		height: 150px;
+	}
+	.trending-item{
+		float: left;
+		width: 30%;
+	}
+	.trending-wrapper{
+		margin: 30px;
+	}
+	.detail-img{
+		height: 200px;
+	}
+	.search-box{
+		width: 600px !important;
+	}
+	.cart-list-devider{
+		border-bottom: 1px solid #ccc;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+
+	}
 </style>
 </html>
