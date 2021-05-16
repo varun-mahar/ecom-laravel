@@ -32,6 +32,20 @@
     <span class="sr-only">Next</span>
   </a>
   </div>
+  <div>
+    <h1>Tranding Product</h1>
+    <div class="carousel-inner">
+    @foreach ($products as $item)
+    <div class="">
+      <img class="slider-img" src="{{$item['gallery']}}">
+      <div class="">
+        <h3>{{$item['name']}} </h3>
+        </div>
+     </div>
+     @endforeach
+  </div>
+ </div>
+
 </div>
  
 @endsection
